@@ -7,3 +7,7 @@
 body {
   background-color: var(--primary-3);
 }
+.img {
+
+   border-bottom-left-radius: 150px;
+}
