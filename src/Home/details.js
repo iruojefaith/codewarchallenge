@@ -3,7 +3,10 @@ import Abouttwo from "../Assets/aboutbg-2.jpg";
 import Aboutthree from "../Assets/aboutbgthree.jpg";
 
 
-//==================Project pictures
+//==================ARTICLES pictures
+import Articleone from "../Assets/article1.png";
+import Articletwo from "../Assets/article2.png";
+import Articlethree from "../Assets/sectiontwobg.jpg";
 
 
 export const details = [
@@ -112,4 +115,26 @@ export const experiencedetails = [
          number: 95
     }
 
+]
+
+//================ARTICLES DETAILS ON THE HOME PAGE==============
+export const article = [
+   {
+        date: "26 December,2022 ",
+        title: "Kitchan Design",
+        description: "Let’s Get Solution For Building Construction Work",
+        img: Articleone
+    },
+     {
+        date: "22 December,2022 ",
+        title: "Living Design",
+        description: "Low Cost Latest Invented Interior Designing Ideas.",
+        img: Articletwo
+    },
+     {
+        date: "26 December,2022 ",
+        title: "Interior Design",
+        description: "Best For Any Office & Business Interior Solution",
+        img: Articlethree
+    }
 ]
