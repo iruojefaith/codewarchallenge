@@ -4,10 +4,7 @@ import Aboutthree from "../Assets/aboutbgthree.jpg";
 
 
 //==================Project pictures
-import PhotoOne from "../Assets/P1.png";
-import PhotoTwo from "../Assets/P2.png";
-import PhotoThree from "../Assets/P3.png";
-import PhotoFour from "../Assets/P4.png";
+
 
 export const details = [
   {
@@ -66,7 +63,7 @@ export const aboutdetails = [
 
 export const projectdetails = [
   {
-     img: PhotoOne,
+
         title: "Modern Kitchan",
         description: "Decor / Artchitecture"
 
@@ -75,21 +72,44 @@ export const projectdetails = [
   {
         title: "Modern Kitchan",
        description: "Decor / Artchitecture",
-      img: PhotoTwo
+
     },
   {
 
         title: "Modern Kitchan",
         description: "Decor / Artchitecture",
-        img: PhotoThree
+
 
     },
     {
 
         title: "Modern Kitchan",
         description: "Decor / Artchitecture",
-        img: PhotoFour
+    }
 
+]
+
+//================Exprience DETAILS ON THE HOME PAGE==============
+export const experiencedetails = [
+  {
+        id: 1,
+        title: "Years Of Experiance",
+        number: 12,
+    },
+     {
+        id: 2,
+        title: "Success Project",
+        number: 85,
+    },
+     {
+        id: 3,
+        title: "Active Project",
+       number: 15,
+    },
+     {
+      id:4,
+        title: "Happy Customers",
+         number: 95
     }
 
 ]

@@ -5,6 +5,8 @@ import SectionTwo from './sectionTwo';
 import SectionThree from './sectionThree';
 import Brand from './Brand';
 import Project from './Project';
+import Experience from './Experience';
+import Article from './Article';
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <SectionThree />
       <Brand />
       <Project />
+      <Experience />
+      <Article />
     </div>
   )
 }
