@@ -2,6 +2,13 @@ import Aboutone from "../Assets/aboutbg-1.jpg";
 import Abouttwo from "../Assets/aboutbg-2.jpg";
 import Aboutthree from "../Assets/aboutbgthree.jpg";
 
+
+//==================Project pictures
+import PhotoOne from "../Assets/P1.png";
+import PhotoTwo from "../Assets/P2.png";
+import PhotoThree from "../Assets/P3.png";
+import PhotoFour from "../Assets/P4.png";
+
 export const details = [
   {
 
@@ -51,5 +58,38 @@ export const aboutdetails = [
         img: Abouttwo
 
     },
+
+]
+
+
+//================PROJECT DETAILS ON THE HOME PAGE==============
+
+export const projectdetails = [
+  {
+     img: PhotoOne,
+        title: "Modern Kitchan",
+        description: "Decor / Artchitecture"
+
+    },
+
+  {
+        title: "Modern Kitchan",
+       description: "Decor / Artchitecture",
+      img: PhotoTwo
+    },
+  {
+
+        title: "Modern Kitchan",
+        description: "Decor / Artchitecture",
+        img: PhotoThree
+
+    },
+    {
+
+        title: "Modern Kitchan",
+        description: "Decor / Artchitecture",
+        img: PhotoFour
+
+    }
 
 ]
