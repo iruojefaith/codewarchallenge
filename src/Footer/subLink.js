@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 const SubLink = ({ title, url }) => {
   if (url.startsWith("/")) {
     return (
-      <Link className='block text-xs my-2 text-blue-200' to={url}>
+      <Link className='block text-xs my-6 text-black ' to={url}>
         {title}
       </Link>
     );
   }
   return (
-    <a className='block text-xs my-2 text-blue-200' href={url}>
+    <a className='block text-xs text-black my-6 ' href={url}>
       {title}
     </a>
   );

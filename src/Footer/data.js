@@ -1,3 +1,8 @@
+//==================ARTICLES pictures
+import Facebook from "../Assets/fb.png";
+import Twitter from "../Assets/tw.png";
+import Instagram from "../Assets/insta.png";
+import Linkedin from "../Assets/in.png"
 
 export const footerLinks = [
   {
@@ -24,27 +29,28 @@ export const footerLinks = [
   {
     title: "Contact",
     subLinks: [
-      { title: "55 East Birchwood Ave. Brooklyn,", url:""},
-      { title: "New York 11201" , url:""},
+      { title: "55 East Birchwood Ave. Brooklyn,\r New York 11201",
+      url:""},
+
       { title: "contact@interno.com", url: "mailto:interno.com" },
        {title: "(123) 456 - 7890", url: "tel:+2347046009964" }
     ],
   },
-  {
-         social: [
+
+];
+
+export const social = [
       {
-        img: "../Assets/fb.png",
+        img: Facebook,
         url: "https://www.facebook.com/",
       },
       {
-        img: "../Assets/tw.png",
+        img: Twitter,
         url: "https://www.twitter.com",
       },
-      { img: "../Assets/in.png", url: "https://www.linkedin.com/" },
+      { img: Linkedin, url: "https://www.linkedin.com/" },
       {
-        img: "../Assets/insta.png",
+        img: Instagram,
         url: "https://instagram.com/",
       },
-    ],
-},
-];
+    ];

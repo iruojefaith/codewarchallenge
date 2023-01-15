@@ -8,7 +8,7 @@ import Home  from '../Assets/home.png';
 
 function Brand() {
   return (
-    <div className='grid md:grid-cols-5 md:mx-[15rem] my-[5rem] mx-[1rem] place-items-center justify-items-center '>
+    <div className='grid grid-cols-3 md:grid-cols-5 md:mx-[15rem] my-[5rem] mx-[1rem] place-items-center justify-items-center gap-4 '>
         <img src={Home}/>
         <img src={Vs}/>
         <img src={BranD}/>

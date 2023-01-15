@@ -17,7 +17,9 @@ function Article() {
              <img src={img} alt={title} className="rounded-tl-[2rem] rounded-tr-[2rem] relative" />
              <button className="absolute mt-[-5rem] ml-[1rem] bg-[#Fff] p-4 rounded-[.8rem] text-[16px] text-[#4D5053] ">{title}</button>
         </div>
-         <h3 className=' my-[1rem] text-[25px] text-[#292F36]'>{description}</h3>
+        <div>
+         <h3 className=' my-[1rem] text-[16px] md:text-[20px] text-[#292F36]'>{description}</h3>
+         </div>
              <div className='flex  justify-items-center  justify-between mt-5' >
                 <p className='text-[16px] '>{date}</p>
               <button  className='bg-[#F4F0EC] hover:bg-[#fff] w-[3rem] h-[3rem] rounded-full block text-center pointer font-bold  text-[#4D5053] text-[22px] cursor-pointer '>&#62;</button>

@@ -1,54 +1,58 @@
 import React, { useEffect, useRef } from "react";
-import { footerLinks } from "./data";
+import { footerLinks, social } from "./data";
 import Logo from "../Assets/Logo.png";
 import SubLink from "./subLink";
 
 const Footer = () => {
-  const toTopRef = useRef(null);
-  useEffect(() => {
-    toTopRef.current.addEventListener("click", () => {
-      window.scrollTo({ top: 0 });
-    });
-  }, []);
+  // const toTopRef = useRef(null);
+  // useEffect(() => {
+  //   toTopRef.current.addEventListener("click", () => {
+  //     window.scrollTo({ top: 0 });
+  //   });
+  // }, []);
 
   return (
+    <div className="flex gap-4 items-center justify-center py-20">
     <div>
-      {footerLinks.map(({ title, social, subLinks },  i) => {
-        return (
-          <div key={i} className="grid md:mx-[15rem] my-[5rem] mx-[1rem] grid-cols-2  ">
-        <div className='lg:w-[20%]'>
-          <h2 className='font-bold text-4xl'><img src={Logo} />Interno</h2>
-          <p className='text-xs font-thin leading-[1.3rem] my-5 text-blue-200'>
-            It is a long established fact that a reader will be distracted lookings
+        <h2 className='font-bold text-4xl flex  '><img src={Logo} />Interno</h2>
+          <p className='text-xs font-thin leading-[1.3rem] my-5'>
+            It is a long established fact that a reader<br></br> will be distracted lookings
           </p>
-          <div className='flex gap-2'>
-                  {social?.map((item, i) => {
-                    return (
-                      <div key={i}>
-                        <a href={item.url}>
-                          <img
-                            src={item.img}
-                            className='w-5'
-                            alt='socail-icon'
-                          />
+          <div className="grid grid-cols-4 items-center justify-center g-4  ">
+             {social.map(({ img, url }, i ) => {
+             return (
+                      <div key={i} >
+                        <a href={url} className="flex gap-4 ">
+                          <img src={img} className='flex ' alt='social-icon' />
                         </a>
                       </div>
                     );
-                  })}
-                </div>
-        </div>
-        <div className=" grid md:grid-cols-3 lg:grid-cols-4 gap-4">
-           <h2 className='font-medium text-sm mb:4 lg:mb-10 text-white'>
+          })}
+          </div>
+
+    </div>
+
+          <div className="grid grid-cols-3  gap-4 ">
+      {footerLinks.map(({ title, subLinks },  i) => {
+
+        return (
+          <div key={i} className="">
+          <div className="  ">
+                <h2 className='font-medium text-sm  text-black text-[22px] mt-6 '>
                   {title}
                 </h2>
-                {subLinks.map((item, i) => {
+
+                <div className="text-[16px] text-[#4D5053]  ">
+                {subLinks?.map((item, i) => {
                   return <SubLink  key={i} {...item} />;
                 })}
+          </div>
 
         </div>
-          </div>
+      </div>
         )
       })}
+      </div>
     </div>
   )
 };
