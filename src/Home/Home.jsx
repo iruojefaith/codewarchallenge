@@ -7,6 +7,9 @@ import Brand from './Brand';
 import Project from './Project';
 import Experience from './Experience';
 import Article from './Article';
+import Contact from './Contact';
+import Footer from '../Footer/footer';
+
 
 function Home() {
   return (
@@ -19,6 +22,8 @@ function Home() {
       <Project />
       <Experience />
       <Article />
+      <Contact />
+       <Footer />
     </div>
   )
 }

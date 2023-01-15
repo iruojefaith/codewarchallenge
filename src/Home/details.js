@@ -6,7 +6,7 @@ import Aboutthree from "../Assets/aboutbgthree.jpg";
 //==================ARTICLES pictures
 import Articleone from "../Assets/article1.png";
 import Articletwo from "../Assets/article2.png";
-import Articlethree from "../Assets/sectiontwobg.jpg";
+import Articlethree from "../Assets/article3.png";
 
 
 export const details = [

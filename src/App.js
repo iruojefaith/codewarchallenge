@@ -10,10 +10,9 @@ import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 
 
-
 export default function App() {
   return (
-
+<>
       <BrowserRouter>
         <Navbar/>
 
@@ -26,7 +25,10 @@ export default function App() {
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
-
       </BrowserRouter>
+
+      </>
+
+
   );
 }
