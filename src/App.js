@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Routes }  from "react-router-dom";
 import Home from './Home/Home';
 import Navbar from './Navbar/navbar';
 import About from './Components/About/About';
-import Services from './Components/Services';
-import Project from './Components/Project';
+import Services from './Components/Services/Services';
+import Project from './Components/Project/Project';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 
@@ -18,12 +18,12 @@ export default function App() {
 
 
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="*" element={<Home />}/>
             <Route path="/page" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/project" element={<Project/>}/>
-            <Route path="/blog" element={<Blog/>}/>
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/project" element={<Project/>} />
+            <Route path="/blog" element={<Blog/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
       </BrowserRouter>
 

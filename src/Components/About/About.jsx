@@ -1,13 +1,15 @@
 import React from 'react'
 import Footer from '../../Footer/footer';
-import Header from './Header';
+import AboutHeader from './AboutHeader';
+import Sectionthree from './Sectionthree';
 import SectionTwo from './Sectiontwo';
 
 function About() {
   return (
     <div className='bg-white'>
-    <Header />
+    <AboutHeader />
     <SectionTwo />
+    <Sectionthree />
     <Footer />
     </div>
   )

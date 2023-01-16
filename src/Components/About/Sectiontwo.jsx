@@ -13,7 +13,7 @@ function Sectiontwo() {
                     </div>
 
                     <div>
-                     <img src={img} className= {`${ id === 1 ? "md:-mt-10" : "  "} rounded-[4rem] `}   />
+                     <img src={img} className= {`${ id === 1 ? "md:-mt-30" : "  "} rounded-[4rem] `}   />
                     </div>
 </div>
 
