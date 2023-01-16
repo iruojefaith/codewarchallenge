@@ -14,7 +14,7 @@ function NavBar() {
   const Close = () => setClick(false);
 
   return (
-    <div>
+    <div className='overflow-hidden '>
      <div className={click ? "main-container" : ""}  onClick={()=>Close()} />
       <nav className="navbar" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
