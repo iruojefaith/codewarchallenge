@@ -7,8 +7,8 @@ function About() {
   return (
     <div className='bg-white'>
     <Header />
-    <Footer />
     <SectionTwo />
+    <Footer />
     </div>
   )
 }

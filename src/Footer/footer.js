@@ -12,7 +12,7 @@ const Footer = () => {
   // }, []);
 
   return (
-    <div className="flex gap-8 items-center justify-center py-20">
+    <div className="grid md:grid-cols-2 gap-8 items-center justify-center py-20 mx-9">
     <div >
         <h2 className='font-bold text-4xl flex  '><img src={Logo} />Interno</h2>
           <p className=' leading-[1.3rem] my-5 text-[16px] text-[#4D5053]'>
