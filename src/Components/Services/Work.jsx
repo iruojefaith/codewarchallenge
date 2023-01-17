@@ -10,7 +10,7 @@ const Work = () => {
    <div className=' '>
     {work.map(({img, title, description, image, number, id }, index) => {
         return (
-                <div key={index} className={`${  id === 1 || id === 3 ? "" : " flex-row-reverse "} flex flex-col md:flex-row my-20 `}>
+                <div key={index} className={`${  id === 1 || id === 3 ? " " : " flex-row-reverse "} md:flex flex-row my-20 `}>
                     <div className='place-items-center'>
                     <div className='flex justify-between  '>
                     <img src={img} className=" w-20 h-20 justify-evenly "/>

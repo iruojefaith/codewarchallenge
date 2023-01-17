@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="grid md:grid-cols-2 gap-2 items-center justify-center py-20 mx-9 md:mx-[15rem]">
     <div  >
         <h2 className='font-bold text-4xl flex  '><img src={Logo} />Interno</h2>
-          <p className=' leading-[1.3rem] my-5 text-[16px] md:text-[22px] text-[#4D5053]'>
+          <p className=' leading-[1.3rem] my-5 text-[16px] md:text-[16px] text-[#4D5053]'>
             It is a long established fact that a reader<br></br> will be distracted lookings
           </p>
           <div className="flex gap-4">
