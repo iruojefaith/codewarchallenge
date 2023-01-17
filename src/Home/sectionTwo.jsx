@@ -7,8 +7,8 @@ function SectionTwo() {
   return (
     <div className='grid md:grid-cols-2 md:mx-[15rem] my-[4rem] md:mt-[-1rem] mx-[1rem] '>
         <div className='grid grid-cols-1 py-[5rem] mr-[3rem] '>
-            <h1 className='text-4xl text-[#4D5053] '>We Create The Art Of Stylish Living <br></br> Stylishly</h1>
-            <p className='text-[22px] my-7 '>It is a long established fact that a reader will
+            <h1 className=' text-[#4D5053] '>We Create The Art Of Stylish Living Stylishly</h1>
+            <p className=' my-7 '>It is a long established fact that a reader will
              be distracted by the of readable content of a page
             when lookings at its layouts the points of using
             that it has a more-or-less normal.</p>
@@ -17,7 +17,7 @@ function SectionTwo() {
                     <img src={Call} alt="call logo" className=' absolute object-center w-[1rem] h-[1rem] mt-[1.5rem] ml-[1.5rem]'/>
                 </div>
                 <div>
-                    <h3 className='text-[24px] font-bold text-[#4D5053] '>012345678</h3>
+                    <h3 className=' font-bold text-[#4D5053] '>012345678</h3>
                     <p>Call Us Anytime</p>
                 </div>
             </div>

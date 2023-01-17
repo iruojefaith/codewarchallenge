@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function Email() {
   return (
     <div className='md:mx-[15rem] my-20'>
-        <h1 className='text-[35px] md:text-[50px] text-[#292F36] text-center'> Creative project? Let's have a productive talk.</h1>
+        <h1 className=' text-[#292F36] text-center'> Creative project? <br></br>Let's have a productive talk.</h1>
 
 
 <form className='px-4'>

@@ -15,8 +15,8 @@ function Experience() {
             id === 3
             ?  "border-[#CDA274] md:border-r-4  "  : " " }
             h-[8rem]  my-[5rem] pr-[3rem] text-center `}>
-    <h1 className='md:text-[85px] text-[50px] text-[#CDA274]'>{number}</h1>
-    <p className='md:text-[18px] text-[16px]  text-center ' >{title}</p>
+    <h1 className='] text-[#CDA274]'>{number}</h1>
+    <p className=' text-center ' >{title}</p>
     </div>
 )})}
 

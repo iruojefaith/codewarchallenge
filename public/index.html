@@ -11,24 +11,46 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      $(function () {
+
+  let $window = $(window)
+      $h1 = $('h1'),
+      $h2 = $('h2'),
+      $h3 = $('h3'),
+      $h4 = $('h4'),
+      $h5 = $('h5'),
+      $h6 = $('h6'),
+
+      $res = $('.res'),
+      $h1_size = $('.h1'),
+      $h2_size = $('.h2'),
+      $h3_size = $('.h3'),
+      $h4_size = $('.h4'),
+      $h5_size = $('.h5'),
+      $h6_size = $('.h6');
+
+
+  $window.on('resize', function (data) {
+    $res.text($window.width())
+    $h1_size.text($h1.css('fontSize'));
+    $h2_size.text($h2.css('fontSize'));
+    $h2_size.text($h2.css('fontSize'));
+    $h3_size.text($h3.css('fontSize'));
+    $h4_size.text($h4.css('fontSize'));
+    $h5_size.text($h5.css('fontSize'));
+    $h6_size.text($h6.css('fontSize'));
+
+  }).trigger('resize')
+
+})
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.

@@ -14,7 +14,7 @@ function NavBar() {
   const Close = () => setClick(false);
 
   return (
-    <div className='overflow-hidden '>
+    <div >
      <div className={click ? "main-container" : ""}  onClick={()=>Close()} />
       <nav className="navbar" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
@@ -30,6 +30,7 @@ function NavBar() {
                 exact
                 to={url}
                 key={i}
+                activeClassName="active"
                 className="nav-links hover:text-[#CDA274]"
                 onClick={click ? handleClick : null}
               >
@@ -41,7 +42,7 @@ function NavBar() {
             </li>
 
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
+          <div className="nav-icon " onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
           </div>
         </div>

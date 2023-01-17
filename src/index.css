@@ -10,3 +10,150 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: calc(3.125vw + 6px);
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: calc(2.6785714286vw + 9.4285714286px);
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: calc(5.7692307692vw - 21.2307692308px);
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+}
+@media (min-width: 576px) {
+  h2 {
+    font-size: calc(2.0833333333vw + 8px);
+  }
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: calc(2.6785714286vw + 3.4285714286px);
+  }
+}
+@media (min-width: 992px) {
+  h2 {
+    font-size: calc(2.8846153846vw + 1.3846153846px);
+  }
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+}
+@media (min-width: 576px) {
+  h3 {
+    font-size: calc(1.0416666667vw + 12px);
+  }
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: calc(1.7857142857vw + 6.2857142857px);
+  }
+}
+@media (min-width: 992px) {
+  h3 {
+    font-size: calc(2.8846153846vw - 4.6153846154px);
+  }
+}
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+h4 {
+  font-size: 17px;
+}
+@media (min-width: 576px) {
+  h4 {
+    font-size: calc(0.5208333333vw + 14px);
+  }
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: calc(0.8928571429vw + 11.1428571429px);
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-size: calc(1.9230769231vw + 0.9230769231px);
+  }
+}
+@media (min-width: 1200px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  h5 {
+    font-size: calc(0.8928571429vw + 9.1428571429px);
+  }
+}
+@media (min-width: 992px) {
+  h5 {
+    font-size: calc(0.9615384615vw + 8.4615384615px);
+  }
+}
+@media (min-width: 1200px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 14px;
+}
+@media (min-width: 992px) {
+  h6 {
+    font-size: calc(0.9615384615vw + 4.4615384615px);
+  }
+}
+@media (min-width: 1200px) {
+  h6 {
+    font-size: 16px;
+  }
+}
+
+p,
+li {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--primary-4);
+  font-family: "equip", sans-serif;
+}

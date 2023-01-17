@@ -9,8 +9,8 @@ function Sectiontwo() {
         return (
                 <div key={index} className={`${  id === 1 ? "" : "md:flex-col-reverse  "} flex flex-col gap-6 md:gap-52 align-middle justify-center`}>
                     <div  className={`${ id === 1 ? "" : " md:-mt-20  "} justify-center grid align-top` } >
-                     <h1 className='text-[50px]'>{title}</h1>
-                    <p className="text-[22px]">{description}</p>
+                     <h1 >{title}</h1>
+                    <p >{description}</p>
                       <div>
                         <button className="  ml-[1rem] bg-[#4D5053] mt-6 p-4 rounded-[.8rem] text-[16px] text-[#FFF] flex ">{button} &nbsp;&nbsp;<AiOutlineArrowRight className=' mt-[.4rem] text-[#CDA274] '/></button>
                      </div>
