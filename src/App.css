@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost&display=swap');
+
 :root{
   --primary-1: #CDA274;
   --primary-2: #292F36;
@@ -12,11 +14,18 @@ body {
 
    border-bottom-left-radius: 150px;
 }
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'DM Serif Display', serif;
+}
 h1 {
 color: var(--primary-2);
 }
 p {
   color: var(--primary-4);
+}
+h3
+p, button ,li{
+    font-family: 'Jost', sans-serif;
 }
 .aboutimg {
   margin-top: 2rem;

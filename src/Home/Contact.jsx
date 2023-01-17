@@ -9,7 +9,7 @@ function Contact() {
         <p className='md:text-lg text-[#fff] py-7 '>It is a long established fact  will be distracted.</p>
     </div>
 
-        <button className=" mt-[-6rem] ml-[1rem] bg-[#CDA274] p-4 rounded-[.8rem] text-[16px] text-[#FFF] flex fles-cols ">Contact With Us &nbsp;&nbsp;<AiOutlineArrowRight className='text-[#4D5053] mt-[.4rem] '/></button>
+        <button className=" mt-[-6rem] ml-[1rem] bg-[#CDA274] p-4 rounded-[.8rem] text-[16px] text-[#FFF] flex ">Contact With Us &nbsp;&nbsp;<AiOutlineArrowRight className='text-[#4D5053] mt-[.4rem] '/></button>
 
     </div>
   )
