@@ -69,7 +69,7 @@ export const work =[
     img: IconTwo,
     number: Two,
     title: "Idea for Work",
-    description: "It is a long established fact  will be distracted.Lorem Ipsum is simply dummy from text of the and typesetting indufstry. ",
+    description: "It is a long established fact  will be distracted.Lorem, Ipsum is simply dummy from text of the and typesetting indufstry. ",
     image: WorkOne
   },
    {

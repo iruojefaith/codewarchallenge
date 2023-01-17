@@ -9,8 +9,8 @@ const Sectionthree = () => {
   return (
         <div className='grid md:mx-[15rem] my-[5rem] mx-[1rem]  '>
         <div className='text-center'>
-            <h1 className='text-[35px] md:text-[50px] text-[#292F36]'> What the People Thinks About Us</h1>
-            <div className='flex gap-4 '>
+            <h1 className='text-[35px] md:text-[50px] text-[#292F36]'> What the People Thinks <br></br>About Us</h1>
+            <div className='flex gap-4 my-6 '>
             {peoplesay.map(({ img}, index) => {
                 return (
                    <Card img={img} key={index} index={index}/>

@@ -6,7 +6,7 @@ import Work from './Work';
 
 function Services() {
   return (
-    <div>
+    <div className='bg-[#Fff]'>
       <HeaderServices />
       <Work />
       <Contact />
