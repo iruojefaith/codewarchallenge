@@ -16,7 +16,7 @@ function Header() {
           />
           <div className='  grid h-screen place-items-center '>
             <div className='absolute -mt-[7rem] justify-center align-middle '>
-              <h3 className=' leading-8 my-6 bg-[#fff] px-16 md:px-24 py-10 w-50 rounded-tr-3xl rounded-tl-3xl text-center'>About Us <br></br><span className='text-[20px] leading-1 '>Home/About Us</span> </h3>
+              <h1 className=' leading-8 my-6 bg-[#fff] px-16 md:px-24 py-10 w-50 rounded-tr-3xl rounded-tl-3xl text-center'>About Us <br></br><span className='text-[20px] leading-1 '>Home/About Us</span> </h1>
                  </div>
             </div>
     </div>

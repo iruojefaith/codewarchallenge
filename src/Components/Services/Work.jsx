@@ -4,8 +4,8 @@ const Work = () => {
   return (
      <div className=' bg-[#F4F0EC] grid gap-6 md:mx-[15rem] h-[100%] rounded-[4rem] mt-60 pt-20 px-16 '>
     <div className=' text-center '>
-         <h1 className='  md:text-[50px] '>How We Work</h1>
-         <h5 className=''>It is a long established fact  will be distracted.Lorem Ipsum is simply dummy text of <br></br>the printing and typesetting industry.</h5>
+         <h1 >How We Work</h1>
+         <h5 >It is a long established fact  will be distracted.Lorem Ipsum is simply dummy text of <br></br>the printing and typesetting industry.</h5>
     </div>
    <div className=' '>
     {work.map(({img, title, description, image, number, id }, index) => {
