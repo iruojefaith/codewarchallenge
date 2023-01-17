@@ -12,8 +12,8 @@ function Project() {
             <p className='text-[22px] text-[#4D5053]'>It is a long established fact that a reader will be distracted by the of readable<br></br>
             content of page  lookings at its layouts  points.</p>
         </div>
-        <div className='grid md:grid-cols-2 justify-items-center  place-items-center gap-8 my-[4rem]'>
-            <div className="w-[30rem]  ">
+        <div className='grid md:grid-cols-2 justify-items-center  place-items-center gap-10 my-[4rem]'>
+            <div className="w-[25rem]  ">
              <img src={POne} alt="title" className='rounded-tr-[3rem] '/>
              <div className='flex  justify-items-center  place-items-center justify-between mt-5'>
              <div>
@@ -23,7 +23,7 @@ function Project() {
               <button  className='bg-[#F4F0EC] w-[3rem] h-[3rem] rounded-full block text-center pointer font-bold text-[#292F36] text-[22px] '>&#62;</button>
              </div>
             </div>
-             <div className="w-[30rem] ">
+             <div className="w-w-[25rem] ">
              <img src={PTwo} alt="title" className='rounded-tl-[3rem] '/>
             <div className='flex  justify-items-center  place-items-center justify-between mt-5'>
              <div>
@@ -33,7 +33,7 @@ function Project() {
               <button  className='bg-[#F4F0EC] w-[3rem] h-[3rem] rounded-full block text-center pointer font-bold text-[#292F36] text-[22px] '>&#62;</button>
              </div>
             </div>
-             <div className="w-[30rem] ">
+             <div className="w-w-[25rem] ">
              <img src={PThree} alt="title" className='rounded-br-[3rem] ' />
                <div className='flex  justify-items-center  place-items-center justify-between mt-5'>
              <div>
@@ -43,7 +43,7 @@ function Project() {
               <button  className='bg-[#F4F0EC] w-[3rem] h-[3rem] rounded-full block text-center pointer font-bold text-[#292F36] text-[22px] '>&#62;</button>
              </div>
             </div>
-             <div className="w-[30rem] ">
+             <div className="w-w-[25rem] ">
              <img src={PFour} alt="title" className='rounded-bl-[3rem] '/>
                  <div className='flex  justify-items-center  place-items-center justify-between mt-5'>
              <div>

@@ -13,10 +13,10 @@ function Experience() {
             id === 1 ||
             id === 2 ||
             id === 3
-            ?  "border-[#CDA274] border-r-4 "  : " " }
-            h-[10rem] my-[5rem] pr-[3rem] text-center `}>
-    <h1 className='text-[85px] text-[#CDA274]'>{number}</h1>
-    <p className='text-[22px] text-center ' >{title}</p>
+            ?  "border-[#CDA274] md:border-r-4  "  : " " }
+            h-[8rem]  my-[5rem] pr-[3rem] text-center `}>
+    <h1 className='md:text-[85px] text-[50px] text-[#CDA274]'>{number}</h1>
+    <p className='md:text-[18px] text-[16px]  text-center ' >{title}</p>
     </div>
 )})}
 
